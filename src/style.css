@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    background: #ffd591e9;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    outline: none;
+}
+
+.progress-bar-container
+{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, 50%);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#progress-bar{
+    width: 30%;
+    margin-top: 0.5%;
+    height: 5%;
+}
+label
+{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+.section
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Cabin', sans-serif;
+    color: #ffd591e9;
+    text-transform: uppercase;
+    font-size: 7vmin;
+}
+
+section:nth-child(odd)
+{
+    justify-content: flex-end;
+}
+
+#explore
+{   
+    position: fixed;
+    background-color:  #000000;
+    font-family: calibri;
+    display: block;
+    font-size: 45px;
+    text-transform: lowercase;
+    text-align: center;
+    justify-content: center;
+    margin: px;
+    cursor: pointer;
+    color: #ffd591e9;
+    align-items: center;
+    right: 10%;
+    bottom: 10%;
+    left: 10%;  
+}
+body {
+    -webkit-overflow-scrolling: touch;
+}
+.iframeContainer, iframe {
+    width: 200px;
+    height: 200px;
+}
+.iframeContainer {
+    overflow: auto;
+}
+#map {
+    touch-action: auto;
+  }
